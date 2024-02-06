@@ -1,7 +1,4 @@
 import Time from "../models/Time"
-import { getXataClient } from "../xata"
-
-const client = getXataClient()
 
 const times : Time[] = []
 
@@ -27,12 +24,6 @@ async function addTime(time:Time): Promise<Time> {
         times.push(novoTime)
         
         return resolve(novoTime)
-    })
-}
-
-async function criarTimeDB(nome:String) {
-    const db = await client.db.Time.create({
-        nome: nome as string
     })
 }
 
