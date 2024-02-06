@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express'
 import Time from '../models/Time'
-import repository from '../repositories/TimeRepository'
+import repository from '../repositories/timeRepository'
+
 
 async function getTime(req: Request, res: Response, next: NextFunction) {
     const id = req.params.id
