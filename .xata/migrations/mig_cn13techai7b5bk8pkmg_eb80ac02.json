@@ -1,0 +1,11 @@
+{
+  "id": "mig_cn13techai7b5bk8pkmg",
+  "checksum": "1:eb80ac02fd6e0d866666a75c8ebccdc5c796677970329d261e3d2670359ae7eb",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Time"
+      }
+    }
+  ]
+}
