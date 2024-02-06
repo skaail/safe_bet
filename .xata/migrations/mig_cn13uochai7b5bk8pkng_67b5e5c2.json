@@ -1,0 +1,16 @@
+{
+  "id": "mig_cn13uochai7b5bk8pkng",
+  "parentID": "mig_cn13techai7b5bk8pkmg",
+  "checksum": "1:67b5e5c22f64a2432a74b6f41f1831a75577f49eb33ab6e670de78562cd9a661",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "nom",
+          "type": "text"
+        },
+        "table": "Time"
+      }
+    }
+  ]
+}
