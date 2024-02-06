@@ -25,8 +25,6 @@ async function addTime(time:Time): Promise<Time> {
 
         const novoTime = new Time(time.nome)
         times.push(novoTime)
-
-        criarTimeDB(time.nome)
         
         return resolve(novoTime)
     })
